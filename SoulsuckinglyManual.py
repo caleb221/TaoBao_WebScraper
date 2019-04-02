@@ -29,7 +29,7 @@ def update_to_one(last_range,tests):
                 linkNum+=1
             temp.close()
 #
-# new plan i guess.... time being only dude, fuck this shit
+# new plan i guess.... 
 # manually save  
 #parse local html link index file, 
 # add all to a list
@@ -42,9 +42,9 @@ lastTest=1
 
 test_num=3
 
-fname="linkIndexshouji.txt"
+fname="linkIndex.txt"
 
-dir="/home/caleb/Desktop/notes/TaobaoWebScraper/pages/"
+dir="/TaobaoWebScraper/pages/"
 file=str(dir+"sj"+str(test_num)+".html")
 
 raw_html = open(file,"r")
