@@ -32,7 +32,7 @@ function(w,d)
     window,document
 <h4 class="hd">累计评价 <em class="J_ReviewsCount">
  i use selenium to navigate AND extract the data from 
-    that god damn javascript
+    that $%^&*()(&* javascript
 ...is there a faster way?
 
 make a straight up call to the server?
@@ -73,8 +73,8 @@ def getComments(serverID,isTmall,file):#,userClass,dateClass):
         
         #print("COMMENTS: ",len(commentData))
 
-#fucking login pages hiding the data
-# --> close that shit before we can get to the comments
+# login pages hiding the data
+# --> close it before we can get to the comments
 #surround with try/except...there might not always be a login page
 #find the close button and click it
 def closeBtn():
@@ -263,7 +263,7 @@ for url in links:
                     WebDriverWait(driver, 30).until(expected_conditions.invisibility_of_element_located((By.ID, 'ajax_loader')))
                 except Exception as e:
                     print("TIMEOUT")
-                    driver.refresh() ## i need to quit this shit
+                    driver.refresh() ## i need to quit this
                     isPage = False ## dont do this...it needs to change
                     continue
                 
