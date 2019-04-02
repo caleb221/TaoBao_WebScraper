@@ -127,10 +127,10 @@ def secondRadio(driver,isGood,firstTry):
 #===========================================================================
 #                           DIRECTORIES
 #===========================================================================
-goodDir="C:\\Users\\cseif\\Desktop\\pythonCrap\\TaobaoWebScraper\\goodComments\\comments_"
-badDir="C:\\Users\\cseif\\Desktop\\pythonCrap\\TaobaoWebScraper\\badComments\\comments_"
-gecko_driverDir="C:\\Users\\cseif\\Desktop\\pythonCrap\\geckoFolder\\geckodriver"
-linkFileDir="C:\\Users\\cseif\\Desktop\\pythonCrap\\TaobaoWebScraper\\linkIndex_updated30s.txt"
+goodDir="\\TaobaoWebScraper\\goodComments\\comments_"
+badDir="\\TaobaoWebScraper\\badComments\\comments_"
+gecko_driverDir="\\geckoFolder\\geckodriver"
+linkFileDir="\\TaobaoWebScraper\\linkIndex_updated.txt"
 
 comment_outFile=goodDir#saved in a seperate folder and indexed with a number
 pageNum=8
@@ -200,10 +200,10 @@ with open(linkFileDir,"r") as lFile:
             print("COPY!!!!!!")
         elif(str(links[b6]) in str(links[i])):
             links[b6]=0
-            print("DAMN COPIES GTFO")
+            print("COPIES =(")
         elif(str(links[b7]) in str(links[i])):
             links[b7]=0
-            print("FUCK COPIES!!!")
+            print(" COPIES!!!")
 		
 		
         b7+=1
